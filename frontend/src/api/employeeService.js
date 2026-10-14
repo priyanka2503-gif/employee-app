@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8081/api/employees';
+const API_BASE_URL = 'https://employee-app-1-83wg.onrender.com/api/employees';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,

@@ -189,7 +189,7 @@ export default function App() {
               <ServerCrash size={20} className="alert-banner-icon" />
               <div className="alert-banner-text">
                 <strong>Backend Server Disconnected:</strong> Could not reach{' '}
-                <code>http://localhost:8081/api/employees</code>. Please ensure the Spring Boot
+                <code>https://employee-app-1-83wg.onrender.com/api/employees</code>. Please ensure the Spring Boot
                 backend is running.
               </div>
               <button
